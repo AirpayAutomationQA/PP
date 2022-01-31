@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Airpay]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_PP_14_Debit_Card(failed)">
+    <parameter name="tcID" value="TC_PP_14_Debit_Card"/>
+    <parameter name="browserType" value="CHROME"/>
+    <classes>
+      <class name="com.Airpay.Tests.TC_PP_14_Debit_Card">
+        <methods>
+          <include name="setup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="tearDown"/>
+          <include name="TC_TestCaseName"/>
+        </methods>
+      </class> <!-- com.Airpay.Tests.TC_PP_14_Debit_Card -->
+    </classes>
+  </test> <!-- TC_PP_14_Debit_Card(failed) -->
+</suite> <!-- Failed suite [Airpay] -->
